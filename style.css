@@ -6,21 +6,70 @@ body {
 }
 
 header {
-    margin: 0 auto;
+    margin: 60px auto 30px;
     text-align: center;
     width: 33%;
 }
 
 .page-title {
+    color: hsl(234, 12%, 34%);
     font-weight: 200;
 }
 
 .page-title strong {
-    color: hsl(234, 12%, 34%);
     display: block;
     font-weight: 600;
 }
 
 .subtitle {
     font-size: 0.9rem;
+}
+
+.card-container {
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width: auto;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 4px;
+    box-shadow: 0 15px 20px hsl(229, 6%, 80%);
+    box-sizing: border-box;
+    height: 208px;
+    margin: 12px;
+    padding: 30px;
+    position: relative;
+    width: 291px;
+}
+
+.card-title {
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+}
+
+.card-description {
+    font-size: 0.8rem;
+}
+
+.card-img {
+    position: absolute;
+    right: 30px;
+}
+
+.border-top-red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.border-top-cyan {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.border-top-orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.border-top-blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
 }
