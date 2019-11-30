@@ -1,0 +1,26 @@
+body {
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 33%;
+}
+
+.page-title {
+    font-weight: 200;
+}
+
+.page-title strong {
+    color: hsl(234, 12%, 34%);
+    display: block;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+}
